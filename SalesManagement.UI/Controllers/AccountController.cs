@@ -145,8 +145,7 @@ namespace SalesManagement.UI.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
-            List<SelectListItem> RoleList = GetRoles();
-            return View(RoleList);
+            return View();
         }
 
         //
@@ -158,6 +157,11 @@ namespace SalesManagement.UI.Controllers
         {
             if (ModelState.IsValid)
             {
+
+                List<SelectListItem> _RoleList = GetRoles();
+                ViewBag.MySkills = _RoleList;
+
+
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
@@ -185,17 +189,13 @@ namespace SalesManagement.UI.Controllers
         {
             SalesManagementDemoEntities _obj = new SalesManagementDemoEntities();
                         
-            List<SelectListItem> RoleList = (from p in _obj.Roles.AsEnumerable()
+            List<SelectListItem> _RoleList = (from p in _obj.Roles.AsEnumerable()
                                                  select new SelectListItem
                                                  {
                                                      Text = p.RoleName,
                                                      Value = p.Id.ToString()
                                                  }).ToList();
-
-
-            ////Add Default Item at First Position.
-            //customerList.Insert(0, new SelectListItem { Text = "--Select Customer--", Value = "" });
-            return View();
+            return _RoleList;
         }
 
 

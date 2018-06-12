@@ -18,3 +18,13 @@ D:\A Training\Sumit technology\30maystartingdate\5JuneMVC\SalesManagementDemo-ma
 D:\A Training\Sumit technology\30maystartingdate\5JuneMVC\SalesManagementDemo-master\SalesManagement.Data\obj\Debug\SalesManagement.Data.csprojResolveAssemblyReference.cache
 D:\A Training\Sumit technology\30maystartingdate\5JuneMVC\SalesManagementDemo-master\SalesManagement.Data\obj\Debug\SalesManagement.Data.dll
 D:\A Training\Sumit technology\30maystartingdate\5JuneMVC\SalesManagementDemo-master\SalesManagement.Data\obj\Debug\SalesManagement.Data.pdb
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\bin\Debug\SalesManagement.Data.dll.config
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\bin\Debug\SalesManagement.Data.dll
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\bin\Debug\SalesManagement.Data.pdb
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\bin\Debug\EntityFramework.dll
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\bin\Debug\EntityFramework.xml
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\obj\Debug\SalesManagement.Data.dll
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\obj\Debug\SalesManagement.Data.pdb
+C:\GitProjects\SalesManagementDemo-master\SalesManagement.Data\obj\Debug\SalesManagement.Data.csprojResolveAssemblyReference.cache

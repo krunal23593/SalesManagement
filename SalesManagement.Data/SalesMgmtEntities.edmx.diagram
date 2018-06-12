@@ -8,7 +8,6 @@
         <EntityTypeShape EntityType="SalesManagementDemoModel.Budget" Width="1.5" PointX="2.25" PointY="1.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesManagementDemoModel.Department" Width="1.5" PointX="5" PointY="1.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesManagementDemoModel.Inventory" Width="1.5" PointX="13.25" PointY="5.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesManagementDemoModel.Order_Details" Width="1.5" PointX="7.875" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesManagementDemoModel.Order" Width="1.5" PointX="10" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesManagementDemoModel.Product" Width="1.5" PointX="10.75" PointY="5.125" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesManagementDemoModel.Role" Width="1.5" PointX="2.125" PointY="5.125" IsExpanded="true" />
@@ -18,12 +17,13 @@
         <AssociationConnector Association="SalesManagementDemoModel.FK__Sales__BudgetId__72C60C4A" ManuallyRouted="false" />
         <AssociationConnector Association="SalesManagementDemoModel.FK_DepartmentId" ManuallyRouted="false" />
         <AssociationConnector Association="SalesManagementDemoModel.FK_ProductId_Inv" ManuallyRouted="false" />
-        <AssociationConnector Association="SalesManagementDemoModel.FK_TransId" ManuallyRouted="false" />
         <AssociationConnector Association="SalesManagementDemoModel.FK_RoleId" ManuallyRouted="false" />
         <AssociationConnector Association="SalesManagementDemoModel.FK_OrdersId" />
         <AssociationConnector Association="SalesManagementDemoModel.FK_ProductId" />
         <AssociationConnector Association="SalesManagementDemoModel.FK_UserId" />
         <AssociationConnector Association="SalesManagementDemoModel.FK_UserId_Sales" />
+        <EntityTypeShape EntityType="SalesManagementDemoModel.Order_Details" Width="1.5" PointX="7.5" PointY="1.375" />
+        <AssociationConnector Association="SalesManagementDemoModel.FK_TransId" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
